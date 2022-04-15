@@ -1,0 +1,20 @@
+.list_item {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 6rem auto;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.list_item__img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.list_item__text {
+  width: 100%;
+  padding: 0.3rem;
+}
